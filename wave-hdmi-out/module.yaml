@@ -1,0 +1,52 @@
+name: wave-hdmi-out
+version: 0.1.0
+description: Display video on HDMI output via DRM/KMS
+category: video-output
+protocol: hdmi
+
+author: WAVE
+license: MIT
+
+requires:
+  network: false
+  gpu: true
+  min_ram_mb: 128
+  arch: [aarch64]
+
+depends:
+  packages:
+    - gstreamer1.0-tools
+    - gstreamer1.0-plugins-base
+    - libdrm-dev
+
+config:
+  resolution:
+    type: string
+    default: auto
+    enum: [auto, 1920x1080, 3840x2160, 1280x720]
+  refresh_rate:
+    type: integer
+    default: 60
+    enum: [24, 25, 30, 50, 60]
+  audio:
+    type: string
+    default: passthrough
+    enum: [passthrough, mute, mix]
+
+health:
+  check_interval_seconds: 30
+  metrics:
+    - connected
+    - resolution
+    - refresh_rate
+
+service:
+  name: wave-hdmi-out
+  type: simple
+  restart: always
+
+api:
+  - path: /api/modules/hdmi-out/status
+    method: GET
+  - path: /api/modules/hdmi-out/config
+    method: [GET, PUT]

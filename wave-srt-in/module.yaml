@@ -1,0 +1,63 @@
+name: wave-srt-in
+version: 0.1.0
+description: Receive SRT streams and decode to HDMI or pipeline
+category: video-input
+protocol: srt
+
+author: WAVE
+license: MIT
+
+requires:
+  network: true
+  min_ram_mb: 256
+  arch: [aarch64, x86_64]
+
+depends:
+  packages:
+    - gstreamer1.0-tools
+    - gstreamer1.0-plugins-base
+    - gstreamer1.0-plugins-bad
+    - gstreamer1.0-plugins-good
+
+config:
+  port:
+    type: integer
+    default: 9000
+    min: 1024
+    max: 65535
+  mode:
+    type: string
+    default: listener
+    enum: [listener, caller, rendezvous]
+  passphrase:
+    type: string
+    default: ""
+    secret: true
+  latency:
+    type: integer
+    default: 200
+    min: 20
+    max: 8000
+  caller_address:
+    type: string
+    default: ""
+    description: Remote SRT address (caller mode only)
+
+health:
+  check_interval_seconds: 10
+  metrics:
+    - bitrate_mbps
+    - packet_loss_pct
+    - rtt_ms
+    - dropped_frames
+
+service:
+  name: wave-srt-in
+  type: simple
+  restart: always
+
+api:
+  - path: /api/modules/srt-in/status
+    method: GET
+  - path: /api/modules/srt-in/config
+    method: [GET, PUT]

@@ -1,0 +1,61 @@
+name: wave-ndi-in
+version: 0.1.0
+description: Receive NDI 5 full bandwidth streams with tally feedback
+category: video-input
+protocol: ndi
+
+author: WAVE
+license: MIT
+
+requires:
+  network: true
+  min_ram_mb: 512
+  arch: [aarch64, x86_64]
+
+depends:
+  packages:
+    - avahi-daemon
+    - libndi5
+
+config:
+  source_name:
+    type: string
+    default: ""
+    description: NDI source name (empty = auto-discover first)
+  auto_discover:
+    type: boolean
+    default: true
+  tally_enabled:
+    type: boolean
+    default: true
+    description: Send tally feedback to source
+  low_bandwidth:
+    type: boolean
+    default: false
+    description: Request NDI|HX instead of full bandwidth
+
+health:
+  check_interval_seconds: 10
+  metrics:
+    - source_connected
+    - source_name
+    - resolution
+    - frame_rate
+    - bandwidth_mbps
+
+service:
+  name: wave-ndi-in
+  type: simple
+  restart: always
+
+api:
+  - path: /api/modules/ndi-in/sources
+    method: GET
+    description: List discovered NDI sources
+  - path: /api/modules/ndi-in/select
+    method: POST
+    description: "Select NDI source: {name: string}"
+  - path: /api/modules/ndi-in/status
+    method: GET
+  - path: /api/modules/ndi-in/config
+    method: [GET, PUT]

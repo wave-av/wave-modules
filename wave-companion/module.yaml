@@ -1,0 +1,55 @@
+name: wave-companion
+version: 0.1.0
+description: Bitfocus Companion integration — voice + API control of Stream Deck buttons
+category: control
+protocol: http
+
+author: WAVE
+license: MIT
+
+requires:
+  network: true
+  min_ram_mb: 128
+  arch: [aarch64, x86_64]
+
+depends:
+  packages:
+    - curl
+    - jq
+  modules: []
+
+config:
+  companion_host:
+    type: string
+    default: "127.0.0.1"
+    description: Companion server IP
+  companion_port:
+    type: integer
+    default: 8000
+    description: Companion HTTP API port
+  auto_discover:
+    type: boolean
+    default: true
+    description: Auto-discover Companion on local network
+
+health:
+  check_interval_seconds: 15
+  metrics:
+    - companion_connected
+    - buttons_triggered_total
+    - last_trigger_time
+
+service:
+  name: wave-companion
+  type: simple
+  restart: always
+
+api:
+  - path: /api/modules/companion/status
+    method: GET
+  - path: /api/modules/companion/trigger
+    method: POST
+    description: "Trigger a button: {page: int, button: int}"
+  - path: /api/modules/companion/pages
+    method: GET
+    description: List all Companion pages and buttons

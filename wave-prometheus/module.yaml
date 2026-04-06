@@ -1,0 +1,39 @@
+name: wave-prometheus
+version: 0.1.0
+description: Prometheus node exporter + WAVE custom metrics
+category: monitoring
+
+author: WAVE
+license: MIT
+
+requires:
+  network: true
+  min_ram_mb: 64
+  arch: [aarch64, x86_64]
+
+depends:
+  packages: []
+
+config:
+  port:
+    type: integer
+    default: 9100
+  collect_interval_seconds:
+    type: integer
+    default: 15
+
+health:
+  check_interval_seconds: 30
+  metrics:
+    - scrape_count
+    - uptime_seconds
+
+service:
+  name: wave-prometheus
+  type: simple
+  restart: always
+
+api:
+  - path: /metrics
+    method: GET
+    description: Prometheus metrics endpoint
