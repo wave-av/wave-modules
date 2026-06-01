@@ -1,0 +1,13 @@
+{
+  "schemaVersion": "1",
+  "repo": "wave-av/wave-modules",
+  "version": "0.2.0",
+  "lifecycle": "beta",
+  "planeLayer": null,
+  "foundationPin": "v1",
+  "maintainers": [{ "team": "edge" }],
+  "consumes": {
+    "foundationFrameworks": ["frameworks/platform-registry"]
+  },
+  "tags": ["modules", "public", "yaml-manifests", "modular"]
+}
