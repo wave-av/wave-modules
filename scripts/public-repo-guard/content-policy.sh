@@ -79,9 +79,11 @@ check BLOCK stripe-live-key  '(sk|rk)_live_[A-Za-z0-9]{16,}'                    
 check WARN  stripe-object    '(cus|sub|price|prod)_[A-Za-z0-9]{14,}'             'Stripe object ID — verify it is an EXAMPLE, not a real account object'
 
 # --- Infrastructure identifiers ----------------------------------------------
+# shellcheck disable=SC2016  # $CLOUDFLARE_ACCOUNT_ID is literal guidance text, not meant to expand
 check BLOCK cf-account-id    'account_id\s*[:=]\s*["'"'"']?[0-9a-f]{32}'          'Hardcoded Cloudflare account_id — source it from $CLOUDFLARE_ACCOUNT_ID'
 
 # --- Developer / private-repo leakage ----------------------------------------
+# shellcheck disable=SC2016  # $HOME is literal guidance text, not meant to expand
 check BLOCK abs-user-path    '/(Users|home)/(?!runner/)[a-z][a-z0-9._-]+/'        'Hardcoded developer absolute path — use $HOME or a CLI argument'
 
 # Private WAVE repo/product names that must never appear in a public tree. The
