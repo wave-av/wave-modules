@@ -3,7 +3,6 @@
 set -euo pipefail
 
 MODULE_DIR="/opt/wave/modules/wave-srt-in"
-CONFIG_DIR="/opt/wave/config"
 
 echo "[wave-srt-in] Installing..."
 
