@@ -1,6 +1,8 @@
 moq/moq-strand.ts
   s_157583aa3b6686::t_431b0e2b89d0fc 61-70,75-79
   s_157583aa3b6686::t_c43ad94a9392e3 128-135
+  s_157583aa3b6686::t_ac3893cc4d9117 314
+  s_157583aa3b6686::t_91a06fcf1af790 245
 moq/join-resolve.test.mjs
   s_157583aa3b6686::t_880186578334ad 163-206
 ---
