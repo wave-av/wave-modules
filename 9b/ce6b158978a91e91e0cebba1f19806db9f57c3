@@ -2,6 +2,7 @@ governance/bin/plan-lint.mjs
   s_157583aa3b6686::t_ebe21736de0fcc 94-98,102-109
   s_157583aa3b6686::t_1fa17c9573b659 23
   s_157583aa3b6686::t_036049a1cf0c99 110
+  s_157583aa3b6686::t_4e0bf138d8837d 88
 governance/test/work-nodes.deps.test.mjs
   s_157583aa3b6686::t_2f0135f692a053 3
   s_157583aa3b6686::t_5b88b64546f9fa 19-65
@@ -14,6 +15,7 @@ governance/lib/work-nodes.mjs
   s_157583aa3b6686::t_f4403af5efe14a 34,36-65,67-69
   s_157583aa3b6686::t_fabe22ec185cfd 211-213
   s_157583aa3b6686::t_98c2e67a6e84e3 129
+  s_157583aa3b6686::t_4d489ccb816782 88-93,95-102
 ---
 {
   "schema_version": "authorship/3.0.0",
