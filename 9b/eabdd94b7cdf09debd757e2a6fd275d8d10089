@@ -1,5 +1,6 @@
 governance/test/graph-edge-type-contract.test.mjs
   s_db1b2a792e5f25::t_afc5b490b8b3ee 1-79,86-93
+  s_db1b2a792e5f25::t_fb71101cf3f5f7 80-85
 governance/schema/graph.schema.json
   s_db1b2a792e5f25::t_753883be140ccd 22
 ---
