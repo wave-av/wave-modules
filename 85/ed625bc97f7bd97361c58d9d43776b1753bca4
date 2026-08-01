@@ -3,6 +3,7 @@ scripts/travel/__tests__/claude-wrapper.test.sh
   s_be28a864be8c45::t_c9664af707121b 40-46,51-54,57-61
 scripts/travel/air-latency-logger.sh
   s_be28a864be8c45::t_4016261f31cbfe 50
+  s_be28a864be8c45::t_fea86d69519121 49
 scripts/travel/statusline-segments.sh
   s_be28a864be8c45::t_423c3d09bff9fa 194
 scripts/local-llm/redact-learnings.py
