@@ -19,6 +19,8 @@ governance/lib/app-scope-broadening.mjs
   s_8d26503dfc73f4::t_cc51b2e3815201 1-89
 governance/lib/app-scope-gh.mjs
   s_8d26503dfc73f4::t_b8e07622578c8a 1-20,26-61,65-74
+  s_8d26503dfc73f4::t_cbf335bb5dc26a 21-25
+  s_8d26503dfc73f4::t_7686fbb4afa9de 62-64
 governance/test/app-scope-drift.test.mjs
   s_8d26503dfc73f4::t_5cda808179a850 10-13,17-26
   s_8d26503dfc73f4::t_fb4b558b924545 171-265
@@ -29,6 +31,14 @@ governance/bin/app-scope-drift.mjs
   s_8d26503dfc73f4::t_cbd6c1498a33e9 314-335
   s_8d26503dfc73f4::t_f597952e5cc3e6 363
   s_8d26503dfc73f4::t_6b8a458a98c7ea 70
+  s_8d26503dfc73f4::t_a3cb7077243746 336-345,347-348,350-351,357
+  s_8d26503dfc73f4::t_9cadaa0b6f5dbe 110-113
+  s_8d26503dfc73f4::t_4bddfbc5d44160 312-313,346
+  s_8d26503dfc73f4::t_18cc04400da240 72-76
+  s_8d26503dfc73f4::t_008452cce11124 39-55
+  s_8d26503dfc73f4::t_ec13c54144ca6d 71
+governance/lib/app-scope-report.mjs
+  s_8d26503dfc73f4::t_f30af75e8b0c04 1-74
 ---
 {
   "schema_version": "authorship/3.0.0",
