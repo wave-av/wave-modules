@@ -15,6 +15,20 @@ governance/code-index/index.json
 governance/state/app-scope-intent.json
   s_8d26503dfc73f4::t_04c47298dfb877 1-2,4-114,117-147
   s_8d26503dfc73f4::t_5882bcf10d4db9 3
+governance/lib/app-scope-broadening.mjs
+  s_8d26503dfc73f4::t_cc51b2e3815201 1-89
+governance/lib/app-scope-gh.mjs
+  s_8d26503dfc73f4::t_b8e07622578c8a 1-69
+governance/test/app-scope-drift.test.mjs
+  s_8d26503dfc73f4::t_5cda808179a850 10-13,17-26
+  s_8d26503dfc73f4::t_fb4b558b924545 156-250
+governance/bin/app-scope-drift.mjs
+  s_8d26503dfc73f4::t_7c91c926d4288d 51,54,60-68
+  s_8d26503dfc73f4::t_82b67edc2558fe 87-90
+  s_8d26503dfc73f4::t_d289a2553e218c 230-242
+  s_8d26503dfc73f4::t_cbd6c1498a33e9 275-298,302-316,318-326
+  s_8d26503dfc73f4::t_f597952e5cc3e6 356-357,359
+  s_8d26503dfc73f4::t_6b8a458a98c7ea 52
 ---
 {
   "schema_version": "authorship/3.0.0",
