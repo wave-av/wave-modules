@@ -3,6 +3,8 @@ governance/test/semgrep-judgment.test.mjs
   s_02abc74f4971c7::t_dfe5aec4f07213 29-37
 .github/workflows/governance.yml
   s_02abc74f4971c7::t_b614333b824486 144-146
+  s_02abc74f4971c7::t_5ef38373e02839 147
+  s_02abc74f4971c7::t_d490d115bd2904 131-142
 ---
 {
   "schema_version": "authorship/3.0.0",
