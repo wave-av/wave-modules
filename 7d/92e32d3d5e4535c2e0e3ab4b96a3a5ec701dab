@@ -1,5 +1,6 @@
 .github/workflows/reusable-ssot-gate.yml
   s_6f6453b23e3805::t_0d25cd5cf3f864 149-150,155,158
+  s_6f6453b23e3805::t_a076338d0a8433 151-154
 ---
 {
   "schema_version": "authorship/3.0.0",
