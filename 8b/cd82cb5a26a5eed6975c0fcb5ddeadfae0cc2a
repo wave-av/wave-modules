@@ -2,6 +2,8 @@ governance/plans/monolith-decomposition/NORTH-STAR.md
   s_8d26503dfc73f4::t_75bb3f219c437c 153,155-165,170-180
   s_8d26503dfc73f4::t_c04e1df8243ec9 150
   s_8d26503dfc73f4::t_3899c42fb5979b 181
+governance/test/monolith-triage.test.mjs
+  s_8d26503dfc73f4::t_a649541f80d9b6 136
 ---
 {
   "schema_version": "authorship/3.0.0",
