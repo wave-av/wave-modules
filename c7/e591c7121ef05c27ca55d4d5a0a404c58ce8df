@@ -1,6 +1,7 @@
 governance/bin/artifact-source-audit.mjs
   s_63c6ee080d73c3::t_f4e9b1e6b0e8a2 41-46,48,51-57,62,67,73-75
   s_63c6ee080d73c3::t_df97f0ad38757c 28
+  s_63c6ee080d73c3::t_d90dc9ee7d9a4c 63-66
 ---
 {
   "schema_version": "authorship/3.0.0",
