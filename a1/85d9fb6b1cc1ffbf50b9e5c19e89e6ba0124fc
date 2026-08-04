@@ -1,10 +1,12 @@
 governance/bin/epic-status.mjs
   s_02abc74f4971c7::t_1a6e180c0d4944 130
   s_02abc74f4971c7::t_c67e9520750ece 117,122,128
+  s_02abc74f4971c7::t_19b182cabeb097 118-121,123-127
 governance/test/epic-status-partition.test.mjs
   s_02abc74f4971c7::t_46e60fd8fc8e9a 1-97
 governance/lib/owner-resolve.mjs
   s_02abc74f4971c7::t_8e43d1d483e7f5 190,196
+  s_02abc74f4971c7::t_8221e87710e003 191-195
 ---
 {
   "schema_version": "authorship/3.0.0",
