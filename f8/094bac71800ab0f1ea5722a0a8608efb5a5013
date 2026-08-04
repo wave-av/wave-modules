@@ -3,9 +3,12 @@ governance/bin/epic-status.mjs
   s_375efeac18ed55::t_b940298770f64b 62-63
   s_375efeac18ed55::t_608711359b3cb7 64,66
   s_375efeac18ed55::t_f39543757beda9 138,141
+  s_375efeac18ed55::t_6b64da4b4bc7ae 54-61
 governance/test/epic-status.test.mjs
   s_375efeac18ed55::t_de9bca6db4a80c 92-102
   s_375efeac18ed55::t_83be07ab6d7303 71-91,103-106
+governance/lib/epic-status-render.mjs
+  s_375efeac18ed55::t_2385d6df6b39a1 13-14
 ---
 {
   "schema_version": "authorship/3.0.0",
