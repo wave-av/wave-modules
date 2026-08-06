@@ -17,6 +17,8 @@ governance/plans/cloudflare-os-bridge/E5-DOGFOOD-TRIAL.md
   s_7c7e203d305c60::t_58cd26bb9de9d3 75,83-95
   s_7c7e203d305c60::t_8eb821ddc65087 32-35
   s_63c6ee080d73c3::t_a61831f9d216c8 96
+  s_7c7e203d305c60::t_4d318c695e3db0 9-10
+  s_7c7e203d305c60::t_aeccd263340db4 76-78
 governance/plans/cloudflare-os-bridge/E1-CAPN-WEB-SPOKE.md
   s_7c7e203d305c60::t_b401a7c7abaf13 6
   s_7c7e203d305c60::t_5e18b998b2dafa 82
@@ -33,6 +35,8 @@ governance/plans/cloudflare-os-bridge/E6-MARKET-WATCH.md
   s_7c7e203d305c60::t_ddc6dbe90196b8 37-48
 governance/graph.json
   s_7c7e203d305c60::t_a03a6ae4094c05 3060,19834,19836,19840,19842,19846,19848
+governance/plans/cloudflare-os-bridge/README.md
+  s_7c7e203d305c60::t_db6bae928f2116 24
 ---
 {
   "schema_version": "authorship/3.0.0",
