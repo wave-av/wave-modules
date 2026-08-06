@@ -36,7 +36,11 @@ jobs:
         run: |
           mkdir -p "$RUNNER_TEMP/gov" && cd "$RUNNER_TEMP/gov"
           printf '@wave-av:registry=https://npm.pkg.github.com\n//npm.pkg.github.com/:_authToken=${NODE_AUTH_TOKEN}\n' > .npmrc
-          npm install @wave-av/governance@^0.4.4 --no-save --no-audit --no-fund
+          # ^0.4.6 floor: 0.4.6 is the first release whose diff lister fails CLOSED and diffs with
+          # the two-argument `git diff <base> HEAD` form, which accepts the empty-tree object the
+          # indeterminate-base fallback below supplies. The published 0.4.4 swallowed git errors
+          # (`catch { return []; }`) and reported "0 changed file(s) scanned" as a pass.
+          npm install @wave-av/governance@^0.4.6 --no-save --no-audit --no-fund
       - name: A_BLOCK enforce (secrets + hardcoded paths on the diff)
         env:
           PR_BASE_SHA: ${{ github.event.pull_request.base.sha }}
