@@ -1,6 +1,7 @@
 governance/lib/vendor-schema.mjs
   s_2fd4e0c1ae6a7a::t_adfc689a074282 159-161
   s_2fd4e0c1ae6a7a::t_46a3c5488bf4ed 267-277
+  s_2fd4e0c1ae6a7a::t_07c42fe22c0212 164
 governance/bin/fleet/reviewer-config-census.mjs
   s_2fd4e0c1ae6a7a::t_8c1fd098b50f1b 41
   s_2fd4e0c1ae6a7a::t_d3c8596be9b1d8 78-84,87
