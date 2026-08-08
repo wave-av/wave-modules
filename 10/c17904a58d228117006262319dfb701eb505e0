@@ -20,6 +20,7 @@ src/x402-challenge.ts
   s_124891ed63801b::t_8469b782944dc6 147-152,154-157,159-166,168
 src/x402-quote-required.ts
   s_124891ed63801b::t_955d8ef325cd87 1,3-5,7-14,16-24,32-33,36,38,42-44,60,62-64,72,74
+  s_124891ed63801b::t_bc5308299fb751 47-52
 test/x402-capture-quote-binding.spec.ts
   s_b57a1fc8f24e8d::t_00d6bfa99434e2 58-60
 ---
