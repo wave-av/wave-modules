@@ -4,6 +4,7 @@ hooks/hooklib/wrangler-deploy-patterns.sh
 hooks/hooklib/wrangler-deploy-scan.sh
   s_52031f4510959b::t_b52734a154938f 153
   s_d9915bbafa9657::t_37f392f98af294 39
+  s_d9915bbafa9657::t_6a21410d13a5d2 151-152
 hooks/tests/wrangler-deploy-gate-evasion.test.sh
   s_d9915bbafa9657::t_c5fd15c2eae13f 97-110
 ---
