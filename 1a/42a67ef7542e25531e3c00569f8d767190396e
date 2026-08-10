@@ -5,6 +5,7 @@ governance/test/learning-health.test.mjs
   s_d9915bbafa9657::t_29ff513e254d08 231-234
   s_d9915bbafa9657::t_c04928fdefac04 246-248,251-253
   s_d9915bbafa9657::t_1c9ac085713db3 7,11,208-218,226,249-250
+  s_d9915bbafa9657::t_1c9e93e88f182e 236,238-244
 governance/test/graph-absence-sweep.test.mjs
   s_d9915bbafa9657::t_8087841e456999 1-78,82-91
   s_d9915bbafa9657::t_a0d5cd2ab65b7e 79-81
@@ -19,6 +20,7 @@ governance/lib/graph-absence-sweep.mjs
   s_d9915bbafa9657::t_34aa2add8525c5 172,176,178-184
 governance/plans/generated-artifact-contention/PHASE-C-SWEEP.md
   s_d9915bbafa9657::t_135a49a3029181 139-168,183-194
+  s_d9915bbafa9657::t_da5f8dea0dbaed 169-182
 governance/bin/graph-absence-sweep.mjs
   s_d9915bbafa9657::t_a3c3a86ab1ef7d 64-72
   s_d9915bbafa9657::t_29b9f388fa1171 230-233
