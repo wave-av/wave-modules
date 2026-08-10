@@ -5,6 +5,8 @@ governance/lib/ramp-detectors.mjs
 governance/lib/file-size-tiers.mjs
   s_0227926428e4b1::t_25cee8f46ef74c 127-156,163-171,179,181-188
   s_0227926428e4b1::t_c290609fa4913c 21-23,34-47,50-52,61-92,105,110-111,120-122
+  s_0227926428e4b1::t_e7b64a0266c985 157-162
+  s_0227926428e4b1::t_9c0a13bae2e62d 172-178,180
 governance/test/ramp-file-size.test.mjs
   s_0227926428e4b1::t_8ec908c783a60f 167-171
   s_0227926428e4b1::t_2a632f035a0fca 172
