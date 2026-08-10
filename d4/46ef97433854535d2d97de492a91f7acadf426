@@ -6,6 +6,7 @@ governance/lib/wave-sec-score-cmd.mjs
 governance/bin/wave-sec.mjs
   s_52031f4510959b::t_a1071c2bec169d 263
   s_52031f4510959b::t_b489c966dcb800 28
+  s_52031f4510959b::t_0144f1fc278310 96-98
 ---
 {
   "schema_version": "authorship/3.0.0",
