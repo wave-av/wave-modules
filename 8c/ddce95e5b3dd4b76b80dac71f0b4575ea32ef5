@@ -7,6 +7,7 @@ hooks/tests/sandbox-bypass-gate.test.sh
   s_e017bc8859c6b9::t_fc74552d0577b4 40,56,58-60
   s_e017bc8859c6b9::t_54eed07448e225 124-141,143,146-157
   s_e017bc8859c6b9::t_c8434090873d0f 67-68
+  s_e017bc8859c6b9::t_0e7c3084e68d8d 41-55
 ---
 {
   "schema_version": "authorship/3.0.0",
