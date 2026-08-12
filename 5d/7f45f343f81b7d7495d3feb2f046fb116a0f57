@@ -5,6 +5,9 @@ governance/bin/nulltest.mjs
   s_dd42a206f882e3::t_a3ee235cc8687a 76
   s_dd42a206f882e3::t_03089329b2ec52 203-206,218-219
   s_dd42a206f882e3::t_4c1ad7de92dbfa 250,256
+  s_dd42a206f882e3::t_a4466e8c616f9b 253-255
+  s_dd42a206f882e3::t_80759f2e7c001d 106-113,115-116
+  s_dd42a206f882e3::t_0c693ccd15260a 223-227
 governance/test/nulltest-splice.test.mjs
   s_dd42a206f882e3::t_7518dd5462a5c8 1-60
 governance/lib/nulltest-splice.mjs
