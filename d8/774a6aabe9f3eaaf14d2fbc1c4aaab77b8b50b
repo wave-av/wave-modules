@@ -14,6 +14,14 @@ docs/STATUS.md
         "model": "deepseek-v4-flash-free"
       },
       "human_author": "Jake Fineman <jakefineman@gmail.com>"
+    },
+    "s_abb9a2be72e2bf": {
+      "agent_id": {
+        "tool": "opencode",
+        "id": "ses_002c97bcbffepJbWZlswgf5sOd",
+        "model": "mimo-v2.5"
+      },
+      "human_author": "Jake Fineman <jakefineman@gmail.com>"
     }
   }
 }
