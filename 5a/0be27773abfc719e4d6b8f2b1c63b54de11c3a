@@ -22,6 +22,14 @@ scripts/battle.ts
   "base_commit_sha": "5a0be27773abfc719e4d6b8f2b1c63b54de11c3a",
   "prompts": {},
   "sessions": {
+    "s_11f01c22e59a16": {
+      "agent_id": {
+        "tool": "opencode",
+        "id": "ses_010f611f8ffeu0PBw8nXYqfkaV",
+        "model": "deepseek-v4-flash-free"
+      },
+      "human_author": "Jake Fineman <jakefineman@gmail.com>"
+    },
     "s_9673f7dc0983fb": {
       "agent_id": {
         "tool": "opencode",

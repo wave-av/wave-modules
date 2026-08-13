@@ -32,6 +32,14 @@ scripts/guard.ts
         "model": "deepseek-v4-flash-free"
       },
       "human_author": "Jake Fineman <jakefineman@gmail.com>"
+    },
+    "s_ba07216ce52585": {
+      "agent_id": {
+        "tool": "opencode",
+        "id": "ses_0114d5a38ffe4Vzadr8s5TdQXU",
+        "model": "moonshotai/Kimi-K3"
+      },
+      "human_author": "Jake Fineman <jakefineman@gmail.com>"
     }
   }
 }
