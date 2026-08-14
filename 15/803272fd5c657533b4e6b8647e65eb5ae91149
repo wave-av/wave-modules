@@ -1,5 +1,7 @@
 governance/tools/effect-lens/probes/run-probe.mjs
   s_ea7fda6a228496::t_13dde8e212107e 1-63
+.gitignore
+  s_9041cf1cf1ccad::t_323fec10109d29 208-209
 ---
 {
   "schema_version": "authorship/3.0.0",
@@ -7,6 +9,14 @@ governance/tools/effect-lens/probes/run-probe.mjs
   "base_commit_sha": "15803272fd5c657533b4e6b8647e65eb5ae91149",
   "prompts": {},
   "sessions": {
+    "s_9041cf1cf1ccad": {
+      "agent_id": {
+        "tool": "opencode",
+        "id": "ses_002fcdb46ffeE5gGPWedC4WS6o",
+        "model": "kimi-k3"
+      },
+      "human_author": "wave-av-bot[bot] <wave-av-bot[bot]@users.noreply.github.com>"
+    },
     "s_ea7fda6a228496": {
       "agent_id": {
         "tool": "opencode",
