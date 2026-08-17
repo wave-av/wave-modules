@@ -1,0 +1,20 @@
+governance/plans/model-observability/E0-COCKPIT.md
+  h_67a1b847dc59d6 1-9
+governance/plans/model-observability/E1-DRIFT-MONITOR.md
+  h_67a1b847dc59d6 1-10
+governance/plans/model-observability/E2-PROVIDER-HEALTH.md
+  h_67a1b847dc59d6 1-10
+governance/plans/model-observability/NORTH-STAR.md
+  h_67a1b847dc59d6 1-24
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.22",
+  "base_commit_sha": "b4820f640283d2f77f4ca7735b25cf5c0b635381",
+  "prompts": {},
+  "humans": {
+    "h_67a1b847dc59d6": {
+      "author": "wave-av-bot[bot] <wave-av-bot[bot]@users.noreply.github.com>"
+    }
+  }
+}
