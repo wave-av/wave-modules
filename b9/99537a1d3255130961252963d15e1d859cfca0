@@ -1,0 +1,19 @@
+governance/plans/fleet-ops-toolkit/E1-E1-SESSION-TO-SKILL.md
+  s_573fff8682caf3::t_2550e30d54b8e2 2
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.22",
+  "base_commit_sha": "b999537a1d3255130961252963d15e1d859cfca0",
+  "prompts": {},
+  "sessions": {
+    "s_573fff8682caf3": {
+      "agent_id": {
+        "tool": "opencode",
+        "id": "ses_feaf730dcffeTE7o5wztXdCFma",
+        "model": "mimo-v2.5"
+      },
+      "human_author": "wave-av-bot[bot] <wave-av-bot[bot]@users.noreply.github.com>"
+    }
+  }
+}
