@@ -6,6 +6,11 @@ governance/plans/model-selection-completion/E3-MODELFILE.md
   "git_ai_version": "1.6.22",
   "base_commit_sha": "670e36b728b36db9ba20849789b1403d4eb3b4ed",
   "prompts": {},
+  "humans": {
+    "h_67a1b847dc59d6": {
+      "author": "wave-av-bot[bot] <wave-av-bot[bot]@users.noreply.github.com>"
+    }
+  },
   "sessions": {
     "s_7ddeb5d251570f": {
       "agent_id": {

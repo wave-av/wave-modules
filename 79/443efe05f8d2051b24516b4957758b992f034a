@@ -13,6 +13,14 @@ governance/plans/agent-mail-plane/RECEIPTS.md
   "base_commit_sha": "79443efe05f8d2051b24516b4957758b992f034a",
   "prompts": {},
   "sessions": {
+    "s_0950db28a6ae27": {
+      "agent_id": {
+        "tool": "opencode",
+        "id": "ses_001dde969ffeHMcJRk84Bk7W8K",
+        "model": "kimi-k3"
+      },
+      "human_author": "wave-av-bot[bot] <wave-av-bot[bot]@users.noreply.github.com>"
+    },
     "s_34f3f75c6b6e15": {
       "agent_id": {
         "tool": "opencode",

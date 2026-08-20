@@ -7,6 +7,14 @@ governance/plans/egress-authority/DELIVERY-RECEIPT.md
   "base_commit_sha": "e9ecf084ce61cfdac295d02c7aa415e7c1b8c14d",
   "prompts": {},
   "sessions": {
+    "s_0950db28a6ae27": {
+      "agent_id": {
+        "tool": "opencode",
+        "id": "ses_001dde969ffeHMcJRk84Bk7W8K",
+        "model": "kimi-k3"
+      },
+      "human_author": "wave-av-bot[bot] <wave-av-bot[bot]@users.noreply.github.com>"
+    },
     "s_756b33c630d33b": {
       "agent_id": {
         "tool": "opencode",

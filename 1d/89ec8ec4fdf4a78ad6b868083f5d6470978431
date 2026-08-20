@@ -19,6 +19,14 @@ governance/research/thinker-canon/CANON-V2-EXPANSION.md
         "model": "mimo-v2.5"
       },
       "human_author": "wave-av-bot[bot] <wave-av-bot[bot]@users.noreply.github.com>"
+    },
+    "s_8ec7d8b4c3385d": {
+      "agent_id": {
+        "tool": "opencode",
+        "id": "ses_ffeb86ecfffecuzKLTQe3nhMd2",
+        "model": "mimo-v2.5"
+      },
+      "human_author": "wave-av-bot[bot] <wave-av-bot[bot]@users.noreply.github.com>"
     }
   }
 }

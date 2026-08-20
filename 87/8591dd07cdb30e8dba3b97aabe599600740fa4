@@ -3,6 +3,9 @@ governance/plans/sovereign-lab-parity/E1-TRAJECTORY-EMIT.md
   s_c927cca3dccbaa::t_4d82af900d47fd 107,110,114-147
   s_c927cca3dccbaa::t_c6e379c4f8caf4 148
   s_c927cca3dccbaa::t_c8318afd3650a6 194-230
+governance/plans/fireworks-integration/RECEIPTS.md
+  s_0950db28a6ae27::t_60b1151c393e92 35-37
+  s_32a30bff8591e9::t_9b81b69054b0fb 41-42
 ---
 {
   "schema_version": "authorship/3.0.0",
@@ -10,6 +13,22 @@ governance/plans/sovereign-lab-parity/E1-TRAJECTORY-EMIT.md
   "base_commit_sha": "878591dd07cdb30e8dba3b97aabe599600740fa4",
   "prompts": {},
   "sessions": {
+    "s_0950db28a6ae27": {
+      "agent_id": {
+        "tool": "opencode",
+        "id": "ses_001dde969ffeHMcJRk84Bk7W8K",
+        "model": "kimi-k3"
+      },
+      "human_author": "wave-av-bot[bot] <wave-av-bot[bot]@users.noreply.github.com>"
+    },
+    "s_32a30bff8591e9": {
+      "agent_id": {
+        "tool": "opencode",
+        "id": "ses_001ef9014ffep6fd2hvlZqtlv4",
+        "model": "kimi-k3"
+      },
+      "human_author": "wave-av-bot[bot] <wave-av-bot[bot]@users.noreply.github.com>"
+    },
     "s_c927cca3dccbaa": {
       "agent_id": {
         "tool": "claude",

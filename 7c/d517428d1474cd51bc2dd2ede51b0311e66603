@@ -8,6 +8,11 @@ governance/sources/lawbook.json
   "git_ai_version": "1.6.22",
   "base_commit_sha": "7cd517428d1474cd51bc2dd2ede51b0311e66603",
   "prompts": {},
+  "humans": {
+    "h_67a1b847dc59d6": {
+      "author": "wave-av-bot[bot] <wave-av-bot[bot]@users.noreply.github.com>"
+    }
+  },
   "sessions": {
     "s_9041cf1cf1ccad": {
       "agent_id": {

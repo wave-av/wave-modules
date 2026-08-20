@@ -18,6 +18,14 @@ bin/start-here.mjs
   "base_commit_sha": "7b15e3f40c240f24246676b3f6d56e39bd0bc0cb",
   "prompts": {},
   "sessions": {
+    "s_20b101c7f8c430": {
+      "agent_id": {
+        "tool": "opencode",
+        "id": "ses_ff2b3b537ffeFwJZe210BrnNx3",
+        "model": "deepseek-v4-pro"
+      },
+      "human_author": "wave-av-bot[bot] <wave-av-bot[bot]@users.noreply.github.com>"
+    },
     "s_6258b68268be8e": {
       "agent_id": {
         "tool": "opencode",
@@ -25,6 +33,14 @@ bin/start-here.mjs
         "model": "mimo-v2.5"
       },
       "human_author": "wave-av-bot[bot] <wave-av-bot[bot]@users.noreply.github.com>"
+    },
+    "s_7c3d2081ebc163": {
+      "agent_id": {
+        "tool": "opencode",
+        "id": "ses_fef2e2544ffe6o7qrpDEjR6kJt",
+        "model": "deepseek-v4-pro"
+      },
+      "human_author": null
     }
   }
 }

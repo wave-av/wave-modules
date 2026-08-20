@@ -20,6 +20,22 @@ governance/plans/upstash-org-integration/E5-UNEXPLORED-DECIDE.md
   "base_commit_sha": "9a645670fd415421d44b303205f8af37d71730a4",
   "prompts": {},
   "sessions": {
+    "s_0950db28a6ae27": {
+      "agent_id": {
+        "tool": "opencode",
+        "id": "ses_001dde969ffeHMcJRk84Bk7W8K",
+        "model": "kimi-k3"
+      },
+      "human_author": "wave-av-bot[bot] <wave-av-bot[bot]@users.noreply.github.com>"
+    },
+    "s_932812b98c11d1": {
+      "agent_id": {
+        "tool": "opencode",
+        "id": "ses_fffb26dd3ffearw8DwPof3Z4PR",
+        "model": "mimo-v2.5"
+      },
+      "human_author": "wave-av-bot[bot] <wave-av-bot[bot]@users.noreply.github.com>"
+    },
     "s_dd42a206f882e3": {
       "agent_id": {
         "tool": "claude",

@@ -14,6 +14,14 @@ governance/plans/model-selection-completion/RUNBOOK.md
         "model": "deepseek-v4-pro"
       },
       "human_author": "wave-av-bot[bot] <wave-av-bot[bot]@users.noreply.github.com>"
+    },
+    "s_b3961e1e9f5a7a": {
+      "agent_id": {
+        "tool": "opencode",
+        "id": "ses_ff8f14129ffemkkw81DxYotrBt",
+        "model": "mimo-v2.5"
+      },
+      "human_author": "wave-av-bot[bot] <wave-av-bot[bot]@users.noreply.github.com>"
     }
   }
 }

@@ -7,6 +7,14 @@ governance/plans/sovereign-capacity/RECEIPTS.md
   "base_commit_sha": "0cebb330b37df51fdd4034662a31f03175369ce7",
   "prompts": {},
   "sessions": {
+    "s_a358eb4226cf44": {
+      "agent_id": {
+        "tool": "opencode",
+        "id": "ses_ff461d970ffeG18f0vFRyuPt3M",
+        "model": "mimo-v2.5"
+      },
+      "human_author": "wave-av-bot[bot] <wave-av-bot[bot]@users.noreply.github.com>"
+    },
     "s_e8946ec92c298a": {
       "agent_id": {
         "tool": "opencode",

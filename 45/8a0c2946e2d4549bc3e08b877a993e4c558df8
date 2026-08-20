@@ -6,6 +6,11 @@ governance/plans/runtime-economy/bundle/wave-dispatch/index.ts
   "git_ai_version": "1.6.22",
   "base_commit_sha": "458a0c2946e2d4549bc3e08b877a993e4c558df8",
   "prompts": {},
+  "humans": {
+    "h_67a1b847dc59d6": {
+      "author": "wave-av-bot[bot] <wave-av-bot[bot]@users.noreply.github.com>"
+    }
+  },
   "sessions": {
     "s_2b4acc7ceba309": {
       "agent_id": {

@@ -9,6 +9,14 @@ governance/test/factory-exec.test.mjs
   "base_commit_sha": "c00f166ab12b8e217ea12c017cb94983f81d3173",
   "prompts": {},
   "sessions": {
+    "s_0950db28a6ae27": {
+      "agent_id": {
+        "tool": "opencode",
+        "id": "ses_001dde969ffeHMcJRk84Bk7W8K",
+        "model": "kimi-k3"
+      },
+      "human_author": "wave-av-bot[bot] <wave-av-bot[bot]@users.noreply.github.com>"
+    },
     "s_7ddeb5d251570f": {
       "agent_id": {
         "tool": "opencode",

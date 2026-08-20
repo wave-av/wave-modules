@@ -10,5 +10,15 @@ governance/research/creator-intelligence/APPLICATION-PROGRAM.md
     "h_67a1b847dc59d6": {
       "author": "wave-av-bot[bot] <wave-av-bot[bot]@users.noreply.github.com>"
     }
+  },
+  "sessions": {
+    "s_0950db28a6ae27": {
+      "agent_id": {
+        "tool": "opencode",
+        "id": "ses_001dde969ffeHMcJRk84Bk7W8K",
+        "model": "kimi-k3"
+      },
+      "human_author": "wave-av-bot[bot] <wave-av-bot[bot]@users.noreply.github.com>"
+    }
   }
 }

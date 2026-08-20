@@ -10,6 +10,11 @@ governance/plans/agent-mail-plane/E0-E0-FOUNDATION.md
   "git_ai_version": "1.6.22",
   "base_commit_sha": "c6394418783d3f4ee32e68158ccd2aac09911dec",
   "prompts": {},
+  "humans": {
+    "h_67a1b847dc59d6": {
+      "author": "wave-av-bot[bot] <wave-av-bot[bot]@users.noreply.github.com>"
+    }
+  },
   "sessions": {
     "s_012c6da781acab": {
       "agent_id": {

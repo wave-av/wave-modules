@@ -14,6 +14,30 @@ governance/plans/runtime-learning-loop/bin/measure-tier.mjs
         "model": "deepseek-v4-pro"
       },
       "human_author": "wave-av-bot[bot] <wave-av-bot[bot]@users.noreply.github.com>"
+    },
+    "s_8767ce81cadb71": {
+      "agent_id": {
+        "tool": "opencode",
+        "id": "ses_ff40227feffextbUZsMCw2pbyv",
+        "model": "mimo-v2.5"
+      },
+      "human_author": "wave-av-bot[bot] <wave-av-bot[bot]@users.noreply.github.com>"
+    },
+    "s_a358eb4226cf44": {
+      "agent_id": {
+        "tool": "opencode",
+        "id": "ses_ff461d970ffeG18f0vFRyuPt3M",
+        "model": "mimo-v2.5"
+      },
+      "human_author": "wave-av-bot[bot] <wave-av-bot[bot]@users.noreply.github.com>"
+    },
+    "s_bb7c7611500027": {
+      "agent_id": {
+        "tool": "opencode",
+        "id": "ses_ff4069a7fffeIvXBa9cmeB39G6",
+        "model": "mimo-v2.5"
+      },
+      "human_author": "wave-av-bot[bot] <wave-av-bot[bot]@users.noreply.github.com>"
     }
   }
 }

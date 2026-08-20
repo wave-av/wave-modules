@@ -6,6 +6,11 @@ memory/fleet-todo-ledger.md
   "git_ai_version": "1.6.22",
   "base_commit_sha": "d5ad22f6c9dff06954b7281f3529b13a7204da16",
   "prompts": {},
+  "humans": {
+    "h_67a1b847dc59d6": {
+      "author": "wave-av-bot[bot] <wave-av-bot[bot]@users.noreply.github.com>"
+    }
+  },
   "sessions": {
     "s_c076f66efbce99": {
       "agent_id": {

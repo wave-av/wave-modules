@@ -9,6 +9,11 @@ governance/test/no-dark-test-dir.test.mjs
   "git_ai_version": "1.6.22",
   "base_commit_sha": "135563d4ca2350a32bb4374ff2a99a3dae75e791",
   "prompts": {},
+  "humans": {
+    "h_67a1b847dc59d6": {
+      "author": "wave-av-bot[bot] <wave-av-bot[bot]@users.noreply.github.com>"
+    }
+  },
   "sessions": {
     "s_9041cf1cf1ccad": {
       "agent_id": {

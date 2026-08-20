@@ -1,10 +1,10 @@
-memory/fleet-todo-ledger.md
-  h_67a1b847dc59d6 6-8,13,16-19,21-26,32-34,42-64,47,78-281,252-275
+governance/plans/sovereign-capacity/RECEIPTS.md
+  h_67a1b847dc59d6 200,304-323
 ---
 {
   "schema_version": "authorship/3.0.0",
   "git_ai_version": "1.6.22",
-  "base_commit_sha": "dde76d6b9a101671ae5ba7b1b55802be61094f0c",
+  "base_commit_sha": "90c0725e31944fdc492b5f02a1d39c6a127e0514",
   "prompts": {},
   "humans": {
     "h_67a1b847dc59d6": {

@@ -8,6 +8,14 @@ docs/HOOK-LIFECYCLE.md
   "base_commit_sha": "1d81b63365eeb3a076e70e1f22912c90276d1d95",
   "prompts": {},
   "sessions": {
+    "s_0950db28a6ae27": {
+      "agent_id": {
+        "tool": "opencode",
+        "id": "ses_001dde969ffeHMcJRk84Bk7W8K",
+        "model": "kimi-k3"
+      },
+      "human_author": "wave-av-bot[bot] <wave-av-bot[bot]@users.noreply.github.com>"
+    },
     "s_c927cca3dccbaa": {
       "agent_id": {
         "tool": "claude",

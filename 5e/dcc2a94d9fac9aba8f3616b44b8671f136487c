@@ -6,6 +6,11 @@ governance/plans/agent-mail-plane/RECEIPTS.md
   "git_ai_version": "1.6.22",
   "base_commit_sha": "5edcc2a94d9fac9aba8f3616b44b8671f136487c",
   "prompts": {},
+  "humans": {
+    "h_67a1b847dc59d6": {
+      "author": "wave-av-bot[bot] <wave-av-bot[bot]@users.noreply.github.com>"
+    }
+  },
   "sessions": {
     "s_7901a3aeb8ee85": {
       "agent_id": {

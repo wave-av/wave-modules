@@ -7,6 +7,14 @@ governance/spikes/capnweb-spoke/README.md
   "base_commit_sha": "7e505e411f4970c8aae40e5b43527b8cae00555c",
   "prompts": {},
   "sessions": {
+    "s_0950db28a6ae27": {
+      "agent_id": {
+        "tool": "opencode",
+        "id": "ses_001dde969ffeHMcJRk84Bk7W8K",
+        "model": "kimi-k3"
+      },
+      "human_author": "wave-av-bot[bot] <wave-av-bot[bot]@users.noreply.github.com>"
+    },
     "s_7c7e203d305c60": {
       "agent_id": {
         "tool": "claude",

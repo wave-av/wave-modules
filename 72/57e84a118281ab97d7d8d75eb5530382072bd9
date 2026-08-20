@@ -8,6 +8,14 @@ governance/plans/sovereign-lab-parity/E1-TRAJECTORY-EMIT.md
   "base_commit_sha": "7257e84a118281ab97d7d8d75eb5530382072bd9",
   "prompts": {},
   "sessions": {
+    "s_4388d8becd7d94": {
+      "agent_id": {
+        "tool": "opencode",
+        "id": "ses_ffa3a5a50ffeXbTV920EYS1ede",
+        "model": "mimo-v2.5"
+      },
+      "human_author": "wave-av-bot[bot] <wave-av-bot[bot]@users.noreply.github.com>"
+    },
     "s_c927cca3dccbaa": {
       "agent_id": {
         "tool": "claude",

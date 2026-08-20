@@ -7,6 +7,14 @@ governance/plans/wave-control/E4-DESIGN.md
   "base_commit_sha": "49e36ca6ec85087c59ea52080bc7dccba38301cb",
   "prompts": {},
   "sessions": {
+    "s_0950db28a6ae27": {
+      "agent_id": {
+        "tool": "opencode",
+        "id": "ses_001dde969ffeHMcJRk84Bk7W8K",
+        "model": "kimi-k3"
+      },
+      "human_author": "wave-av-bot[bot] <wave-av-bot[bot]@users.noreply.github.com>"
+    },
     "s_2606de950a60c6": {
       "agent_id": {
         "tool": "opencode",

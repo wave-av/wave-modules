@@ -6,6 +6,11 @@ governance/plans/sovereign-capacity/E3-REFRESH.md
   "git_ai_version": "1.6.22",
   "base_commit_sha": "24eff522e8a3bca55c1c67c611d5d2916453b857",
   "prompts": {},
+  "humans": {
+    "h_67a1b847dc59d6": {
+      "author": "wave-av-bot[bot] <wave-av-bot[bot]@users.noreply.github.com>"
+    }
+  },
   "sessions": {
     "s_c927cca3dccbaa": {
       "agent_id": {

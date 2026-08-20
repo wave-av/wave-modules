@@ -7,6 +7,11 @@ governance/plans/agent-mail-plane/RECEIPTS.md
   s_a023fafb67ff02::t_745d2d955227f6 354-391
 governance/plans/agent-mail-plane/E6-E6-EMAIL-ECONOMY.md
   s_a023fafb67ff02::t_951b8e87a51277 1-28
+governance/plans/fireworks-integration/FIREWORKS-SURFACE.md
+  s_8133761f2f345a::t_d85880ad3f3252 36-200,249
+  s_8133761f2f345a::t_6fd62c98c88c52 2-35
+  s_8133761f2f345a::t_3196a112014957 201-248
+  s_0950db28a6ae27::t_5b909029f1a946 1
 ---
 {
   "schema_version": "authorship/3.0.0",
@@ -14,6 +19,22 @@ governance/plans/agent-mail-plane/E6-E6-EMAIL-ECONOMY.md
   "base_commit_sha": "5fcd57c628f564d980e1fd962e18d573190badb6",
   "prompts": {},
   "sessions": {
+    "s_0950db28a6ae27": {
+      "agent_id": {
+        "tool": "opencode",
+        "id": "ses_001dde969ffeHMcJRk84Bk7W8K",
+        "model": "kimi-k3"
+      },
+      "human_author": "wave-av-bot[bot] <wave-av-bot[bot]@users.noreply.github.com>"
+    },
+    "s_8133761f2f345a": {
+      "agent_id": {
+        "tool": "opencode",
+        "id": "ses_fff284170ffeVMHOAA0dlqv6MH",
+        "model": "kimi-k3"
+      },
+      "human_author": "wave-av-bot[bot] <wave-av-bot[bot]@users.noreply.github.com>"
+    },
     "s_a023fafb67ff02": {
       "agent_id": {
         "tool": "opencode",

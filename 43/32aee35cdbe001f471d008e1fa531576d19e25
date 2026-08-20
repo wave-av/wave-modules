@@ -29,6 +29,22 @@ governance/vendor/headroom/scrape-2026-08-13/vendor-doppler-service-tokens.md
   "base_commit_sha": "4332aee35cdbe001f471d008e1fa531576d19e25",
   "prompts": {},
   "sessions": {
+    "s_6bca9a31ea0a27": {
+      "agent_id": {
+        "tool": "opencode",
+        "id": "ses_ff9ccb2cbffetKfMnT1SwYHlqg",
+        "model": "qwen3.8-max"
+      },
+      "human_author": "wave-av-bot[bot] <wave-av-bot[bot]@users.noreply.github.com>"
+    },
+    "s_d194bca44f85df": {
+      "agent_id": {
+        "tool": "opencode",
+        "id": "ses_ffa328722ffevLPalWixQb4hUs",
+        "model": "qwen3.8-max"
+      },
+      "human_author": "wave-av-bot[bot] <wave-av-bot[bot]@users.noreply.github.com>"
+    },
     "s_e243a2a1b60a5d": {
       "agent_id": {
         "tool": "claude",

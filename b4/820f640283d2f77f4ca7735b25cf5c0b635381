@@ -6,6 +6,10 @@ governance/plans/model-observability/E2-PROVIDER-HEALTH.md
   h_67a1b847dc59d6 1-10
 governance/plans/model-observability/NORTH-STAR.md
   h_67a1b847dc59d6 1-24
+governance/plans/dispatch-leaderboard-integration/E0-SCORE-EXPORT.md
+  s_97c931160f4ded::t_211aa5b83be1f4 1,3-9
+governance/plans/eval-backend-parity/E0-VISION-API.md
+  s_97c931160f4ded::t_5178dc348a2af4 1,3-9
 ---
 {
   "schema_version": "authorship/3.0.0",
@@ -15,6 +19,16 @@ governance/plans/model-observability/NORTH-STAR.md
   "humans": {
     "h_67a1b847dc59d6": {
       "author": "wave-av-bot[bot] <wave-av-bot[bot]@users.noreply.github.com>"
+    }
+  },
+  "sessions": {
+    "s_97c931160f4ded": {
+      "agent_id": {
+        "tool": "opencode",
+        "id": "ses_fef98efeaffegOCTPmLa2hDyb7",
+        "model": "kimi-k2.7-code"
+      },
+      "human_author": "wave-av-bot[bot] <wave-av-bot[bot]@users.noreply.github.com>"
     }
   }
 }

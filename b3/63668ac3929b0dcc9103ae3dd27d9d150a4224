@@ -20,6 +20,14 @@ governance/plans/wave-internal-search/NORTH-STAR.md
   "base_commit_sha": "b363668ac3929b0dcc9103ae3dd27d9d150a4224",
   "prompts": {},
   "sessions": {
+    "s_13086dcbacd4a6": {
+      "agent_id": {
+        "tool": "opencode",
+        "id": "ses_fef676a74ffeGDIpvQIhMKNdae",
+        "model": "deepseek-v4-pro"
+      },
+      "human_author": "wave-av-bot[bot] <wave-av-bot[bot]@users.noreply.github.com>"
+    },
     "s_6046880c148371": {
       "agent_id": {
         "tool": "opencode",

@@ -7,6 +7,11 @@ governance/bin/check.mjs
   "git_ai_version": "1.6.22",
   "base_commit_sha": "1d66f4ba3b8c75eabb1f4e117e784f80c935d71c",
   "prompts": {},
+  "humans": {
+    "h_67a1b847dc59d6": {
+      "author": "wave-av-bot[bot] <wave-av-bot[bot]@users.noreply.github.com>"
+    }
+  },
   "sessions": {
     "s_9041cf1cf1ccad": {
       "agent_id": {

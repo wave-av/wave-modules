@@ -6,6 +6,11 @@ governance/research/creator-intelligence/APPLICATION-PROGRAM.md
   "git_ai_version": "1.6.22",
   "base_commit_sha": "0fa5cdbf2b21bd7a30773bc1e226d64685e8bc1f",
   "prompts": {},
+  "humans": {
+    "h_67a1b847dc59d6": {
+      "author": "wave-av-bot[bot] <wave-av-bot[bot]@users.noreply.github.com>"
+    }
+  },
   "sessions": {
     "s_ea7fda6a228496": {
       "agent_id": {

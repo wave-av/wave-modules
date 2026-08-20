@@ -9,6 +9,14 @@ governance/tools/effect-lens/probes/run-probe.mjs
   "base_commit_sha": "15803272fd5c657533b4e6b8647e65eb5ae91149",
   "prompts": {},
   "sessions": {
+    "s_406d80d59c7559": {
+      "agent_id": {
+        "tool": "opencode",
+        "id": "ses_ffd71a7cdffe9LwlqDfCVE0u3D",
+        "model": "mimo-v2.5"
+      },
+      "human_author": "wave-av-bot[bot] <wave-av-bot[bot]@users.noreply.github.com>"
+    },
     "s_9041cf1cf1ccad": {
       "agent_id": {
         "tool": "opencode",
