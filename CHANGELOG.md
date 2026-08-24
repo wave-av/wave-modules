@@ -5,3 +5,6 @@ All notable changes to this project are documented here. The format is based on
 [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 ## [Unreleased]
+
+### Changed
+- Updated `pr-agent` timeout and failure warnings to report per-attempt durations and clarify timeout verdicts.
