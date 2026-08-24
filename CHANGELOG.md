@@ -5,3 +5,5 @@ All notable changes to this project are documented here. The format is based on
 [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 ## [Unreleased]
+
+- Updated PR-Agent to reject `/commands` requests from forked repositories and enforce a 300-second AI timeout within the step budget.
