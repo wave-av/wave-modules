@@ -1,0 +1,14 @@
+AGENTS.md
+  h_af5ac1a9798224 22,24,26-28
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.23",
+  "base_commit_sha": "66cdca130f87b293a2b5ed7bd2c220c6f7d9ea03",
+  "prompts": {},
+  "humans": {
+    "h_af5ac1a9798224": {
+      "author": "Jake Fineman <jakefineman@gmail.com>"
+    }
+  }
+}
