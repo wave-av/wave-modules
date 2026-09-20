@@ -22,10 +22,21 @@ jobs:
           persist-credentials: false
       - name: Run shellcheck on all shell scripts
         run: |
-          mapfile -d '' files < <(find . -name '*.sh' -not -path './.git/*' -print0)
+          set -euo pipefail
+          # PORTABILITY — this body must also run under bash 3.2 (macOS's only bash),
+          # where `mapfile` does not exist. With no `set -e` the missing builtin was
+          # NON-FATAL: `files` stayed unset, `${#files[@]}` read 0, and the gate printed
+          # "No shell scripts found." and exited 0 — reporting SUCCESS having linted
+          # nothing, with real violations sitting in the tree. `read -d ''` is bash 3.2
+          # -safe and preserves the NUL-delimited (newline-in-filename-safe) contract.
+          files=()
+          while IFS= read -r -d '' f; do files+=("$f"); done \
+            < <(find . -name '*.sh' -not -path './.git/*' -print0)
           if [ ${#files[@]} -eq 0 ]; then
             echo "No shell scripts found."
             exit 0
           fi
-          printf '%s\n' "${files[@]}"
-          shellcheck "${files[@]}"
+          # `${arr[@]+"${arr[@]}"}` — bash treats an EMPTY array as UNSET under `set -u`,
+          # so a bare "${files[@]}" would abort the step if the count guard above ever moves.
+          printf '%s\n' "${files[@]+"${files[@]}"}"
+          shellcheck "${files[@]+"${files[@]}"}"
