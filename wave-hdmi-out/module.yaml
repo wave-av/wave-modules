@@ -4,7 +4,7 @@ description: Display video on HDMI output via DRM/KMS
 category: video-output
 protocol: hdmi
 
-author: WAVE
+author: "WAVE Online, LLC"
 license: MIT
 
 requires:
