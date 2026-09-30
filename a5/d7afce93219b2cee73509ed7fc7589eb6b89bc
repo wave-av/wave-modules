@@ -1,0 +1,31 @@
+LICENSE
+  s_5594a307471bd2::t_81f5cccad11ea8 178
+MODULE-SPEC.md
+  s_5594a307471bd2::t_cc83972467580e 17
+wave-companion/module.yaml
+  s_5594a307471bd2::t_df083d06751f4f 7
+wave-hdmi-out/module.yaml
+  s_5594a307471bd2::t_290b17cd74286e 7
+wave-ndi-in/module.yaml
+  s_5594a307471bd2::t_59c0909613f970 7
+wave-prometheus/module.yaml
+  s_5594a307471bd2::t_bce8b928945a1d 6
+wave-srt-in/module.yaml
+  s_5594a307471bd2::t_5126c15507bc4c 7
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.23",
+  "base_commit_sha": "a5d7afce93219b2cee73509ed7fc7589eb6b89bc",
+  "prompts": {},
+  "sessions": {
+    "s_5594a307471bd2": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "agent-a6e476960c5c0bc8b",
+        "model": "unknown"
+      },
+      "human_author": "Jake Fineman <jakefineman@gmail.com>"
+    }
+  }
+}
