@@ -4,7 +4,7 @@ description: Receive NDI 5 full bandwidth streams with tally feedback
 category: video-input
 protocol: ndi
 
-author: WAVE
+author: "WAVE Online, LLC"
 license: MIT
 
 requires:

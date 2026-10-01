@@ -14,7 +14,7 @@ description: Receive SRT streams and decode to local pipeline
 category: video-input
 protocol: srt
 
-author: WAVE
+author: "WAVE Online, LLC"
 license: MIT
 homepage: https://github.com/wave-av/wave-modules/tree/main/wave-srt-in
 

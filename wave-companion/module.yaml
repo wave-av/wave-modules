@@ -4,7 +4,7 @@ description: Bitfocus Companion integration — voice + API control of Stream De
 category: control
 protocol: http
 
-author: WAVE
+author: "WAVE Online, LLC"
 license: MIT
 
 requires:

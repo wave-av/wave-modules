@@ -3,7 +3,7 @@ version: 0.1.0
 description: Prometheus node exporter + WAVE custom metrics
 category: monitoring
 
-author: WAVE
+author: "WAVE Online, LLC"
 license: MIT
 
 requires:
