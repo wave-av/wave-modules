@@ -8,6 +8,10 @@ All notable changes to this project are documented here. The format is based on
 
 ### Fixed
 
+- Foundation-gate secret scan no longer prints match bodies. A hit used to
+  `echo` the full grep line (including the credential) into public GitHub
+  Actions logs. The scan now lives in `scripts/ci/secret-scan.sh` and redacts
+  to file:line, matching `content-policy.sh`.
 - `pr-agent` lane: fork-triggered `/` commands are now refused, and the AI
   call's budget fits inside its step. Three defects, one of them only visible
   once the first was fixed.
