@@ -8,6 +8,7 @@ All notable changes to this project are documented here. The format is based on
 
 ### Fixed
 
+- `content-policy.sh` no longer honors `.rgignore` / `.ignore` / `.fdignore`. A pull request could add one of those files with `*` and skip every WAVE leak rule while leaving `.guardignore` and the scanner script untouched. The gate now passes `--no-ignore` to ripgrep so only the documented IGNORE globs and `.guardignore` exclude paths.
 - `pr-agent` lane: fork-triggered `/` commands are now refused, and the AI
   call's budget fits inside its step. Three defects, one of them only visible
   once the first was fixed.
